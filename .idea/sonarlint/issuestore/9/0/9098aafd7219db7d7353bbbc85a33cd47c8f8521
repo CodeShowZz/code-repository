@@ -1,0 +1,7 @@
+
+Jsquid:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€
+bsquid:S1126"AReplace this if-then-else statement by a single return statement.(»Š ·ûÿÿÿÿ8ÅÝ× Ç.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(›§ø¨8ÅÝ× Ç.
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ˆ£Ùè8Ó£Ú Ç.
+[squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÙœªT
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰ãŸÅøÿÿÿÿ

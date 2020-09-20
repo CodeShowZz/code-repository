@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm-demo/algorithm-demo.iml" filepath="$PROJECT_DIR$/algorithm-demo/algorithm-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code-repository.iml" filepath="$PROJECT_DIR$/code-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency-demo/concurrency-demo.iml" filepath="$PROJECT_DIR$/concurrency-demo/concurrency-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-pattern-demo/design-pattern-demo.iml" filepath="$PROJECT_DIR$/design-pattern-demo/design-pattern-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basic-demo/java-basic-demo.iml" filepath="$PROJECT_DIR$/java-basic-demo/java-basic-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvm-demo/jvm-demo.iml" filepath="$PROJECT_DIR$/jvm-demo/jvm-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-demo/redis-demo.iml" filepath="$PROJECT_DIR$/redis-demo/redis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+    </modules>
+  </component>
+</project>

@@ -11,7 +11,21 @@
     <modules>
         <module>redis-demo</module>
         <module>algorithm-demo</module>
+        <module>concurrency-demo</module>
+        <module>java-basic-demo</module>
+        <module>spring-demo</module>
+        <module>jvm-demo</module>
+        <module>design-pattern-demo</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
