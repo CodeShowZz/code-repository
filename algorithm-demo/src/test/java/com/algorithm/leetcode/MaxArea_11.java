@@ -9,6 +9,12 @@ import org.junit.Test;
 
 public class MaxArea_11 {
 
+    public static void main(String[] args) {
+        int i = 13;
+        Integer j = 13;
+        System.out.println(i==j);
+    }
+
     @Test
     public void testMaxArea() {
         int [] nums = {1,8,6,2,5,4,8,3,7};

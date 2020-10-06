@@ -16,6 +16,7 @@
         <module>spring-demo</module>
         <module>jvm-demo</module>
         <module>design-pattern-demo</module>
+        <module>zookeeper-demo</module>
     </modules>
 
     <dependencies>

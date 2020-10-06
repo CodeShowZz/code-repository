@@ -25,6 +25,9 @@
 *.rar
 *.iml
 .idea/*
+.idea/compiler.xml
+.idea/modules.xml
+.idea/workspace.xml
 .idea/sonarlint/issuestore/3/0/
 .idea/sonarlint/issuestore/a/2/
 .idea/sonarlint/issuestore/a/d/
@@ -45,3 +48,4 @@ redis-demo/target/generated-test-sources/
 spring-demo/target/generated-sources/
 spring-demo/target/generated-test-sources/
 src/
+zookeeper-demo/target/generated-test-sources/
