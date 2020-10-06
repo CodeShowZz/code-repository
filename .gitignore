@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Java template
-=======
->>>>>>> 2e234c0da6b8cd5dcda0de94fba7b40fa9000bb4
 # Compiled class file
 *.class
 
@@ -18,34 +15,13 @@
 # Package Files #
 *.jar
 *.war
-*.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea
 *.iml
-.idea/*
-.idea/compiler.xml
-.idea/modules.xml
-.idea/workspace.xml
-.idea/sonarlint/issuestore/3/0/
-.idea/sonarlint/issuestore/a/2/
-.idea/sonarlint/issuestore/a/d/
-.idea/sonarlint/issuestore/c/9/
-.idea/sonarlint/issuestore/e/1/
-.idea/sonarlint/issuestore/f/6/
-algorithm-demo/src/main/
-algorithm-demo/target/generated-test-sources/
-concurrency-demo/src/main/
-concurrency-demo/target/generated-test-sources/
-design-pattern-demo/src/main/
-java-basic-demo/src/main/
-java-basic-demo/target/generated-test-sources/
-jvm-demo/src/main/
-jvm-demo/target/generated-test-sources/
-redis-demo/target/generated-sources/
-redis-demo/target/generated-test-sources/
-spring-demo/target/generated-sources/
-spring-demo/target/generated-test-sources/
-src/
-zookeeper-demo/target/generated-test-sources/
