@@ -17,6 +17,7 @@
         <module>jvm-demo</module>
         <module>design-pattern-demo</module>
         <module>zookeeper-demo</module>
+        <module>kafka-demo</module>
     </modules>
 
     <dependencies>

@@ -16,4 +16,9 @@ public class MyAbstractOwnableSynchronizer {
     protected final Thread getExclusiveOwnerThread() {
         return exclusiveOwnerThread;
     }
+
+    public static void main(String[] args) {
+       int byteSize =  134217728;
+       System.out.println(byteSize / 1024 / 1024 );
+    }
 }

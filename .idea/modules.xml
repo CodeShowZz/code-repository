@@ -8,8 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/design-pattern-demo/design-pattern-demo.iml" filepath="$PROJECT_DIR$/design-pattern-demo/design-pattern-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-basic-demo/java-basic-demo.iml" filepath="$PROJECT_DIR$/java-basic-demo/java-basic-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm-demo/jvm-demo.iml" filepath="$PROJECT_DIR$/jvm-demo/jvm-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafka-demo/kafka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-demo/redis-demo.iml" filepath="$PROJECT_DIR$/redis-demo/redis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" filepath="$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" />
     </modules>
   </component>
 </project>
