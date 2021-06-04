@@ -39,7 +39,6 @@ public class ProducerDemo {
     public void fireAndForget() {
         ProducerRecord<String, String> record = new ProducerRecord<String, String>("topic", "key", "value");
         producer.send(record);
-
     }
 
     public void sendMsgSync() {
@@ -50,7 +49,6 @@ public class ProducerDemo {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     public void sendMsgAsync() {

@@ -18,6 +18,8 @@
         <module>design-pattern-demo</module>
         <module>zookeeper-demo</module>
         <module>kafka-demo</module>
+        <module>rocketmq-demo</module>
+        <module>spring-cloud-demo</module>
     </modules>
 
     <dependencies>
