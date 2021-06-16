@@ -9,17 +9,17 @@ import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.ZooKeeper;
 
 // ZooKeeper API 删除节点，使用同步(sync)接口。
-public class Delete_API_Sync_Usage implements Watcher {
+public class DeleteNodeSync implements Watcher {
 
     private static CountDownLatch connectedSemaphore = new CountDownLatch(1);
     private static ZooKeeper zk;
 
     public static void main(String[] args) throws Exception {
 
-    	String path = "/zk-book";
-    	zk = new ZooKeeper("domain1.book.zookeeper:2181", 
+    	String path = "/zk-book/c1";
+    	zk = new ZooKeeper("domain1.book.zookeeper:2181",
 				5000, //
-				new Delete_API_Sync_Usage());
+				new DeleteNodeSync());
     	connectedSemaphore.await();
 
     	zk.create( path, "".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL );

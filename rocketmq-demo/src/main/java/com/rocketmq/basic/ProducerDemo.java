@@ -1,4 +1,4 @@
-package com.rocketmq;
+package com.rocketmq.basic;
 
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
@@ -28,6 +28,7 @@ public class ProducerDemo {
     public ProducerDemo() throws Exception {
         producer = new DefaultMQProducer("group");
         producer.setNamesrvAddr("localhost:9876");
+        producer.setSendMsgTimeout(10000);
     }
 
     public void start() throws MQClientException {

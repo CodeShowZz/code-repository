@@ -1,4 +1,4 @@
-package com.rocketmq;
+package com.rocketmq.basic;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
@@ -16,20 +16,32 @@ import java.util.List;
 
 public class ConsumerDemo {
 
+    DefaultMQPushConsumer consumer;
+
     public static void main(String[] args) throws MQClientException {
-        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("group1");
+        ConsumerDemo consumerDemo = new ConsumerDemo();
+        consumerDemo.consume();
+    }
+
+    public ConsumerDemo() throws MQClientException {
+        consumer = new DefaultMQPushConsumer("group1");
         consumer.setNamesrvAddr("localhost:9876");
-        consumer.subscribe("topic" ,"*");
+        consumer.subscribe("orderTopic", "*");
+    }
+
+
+    public void consume() throws MQClientException {
         consumer.registerMessageListener(new MessageListenerConcurrently() {
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurrentlyContext context) {
-                for(MessageExt messageExt : msgs) {
+                for (MessageExt messageExt : msgs) {
                     System.out.println("consumer:" + new String(messageExt.getBody()));
                 }
                 return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
             }
         });
-        consumer.start();
         System.out.printf("Consumer Started.%n");
+        consumer.start();
     }
+
 
 }
