@@ -1,6 +1,5 @@
 package com.javaconcurrencyinaction.task_execute;
 
-import org.junit.Test;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -8,7 +7,6 @@ import java.util.concurrent.TimeUnit;
 
 public class OutOfTime {
 
-    @Test
     public void outOfTime() throws InterruptedException {
         Timer timer = new Timer();
         timer.schedule(new ThrowTask(),1);

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.redis.BasicTest" time="0.005" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\bin"/>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\code-repository"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\code-repository"/>
+    <property name="java.runtime.version" value="1.8.0_252-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\yeahka\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="E:\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="E:\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Git\cmd;E:\apache-maven-3.8.1\bin;E:\apache-zookeeper-3.7.0-bin\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Git\cmd;C:\Program Files\dotnet\;E:\Program Files\nodejs\;D:\msys64\mingw64\bin;D:\anacon;D:\anacon\Library\mingw-w64\bin;D:\anacon\Library\usr\bin;D:\anacon\Library\bin;D:\anacon\Scripts;D:\Scripts\;D:\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Git\cmd;E:\apache-maven-3.8.1\bin;E:\Xftp\;E:\Xshell\;E:\apache-zookeeper-3.7.0-bin\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Git\cmd;%path;D:\Microsoft VS Code\bin;D:\anaconda;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\bin;C:\Users\yeahka\AppData\Local\atom\bin;C:\Users\yeahka\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="E:\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="E:\repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="idea.version2019.3.3" value="true"/>
+    <property name="user.home" value="C:\Users\yeahka"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yeahka"/>
+    <property name="java.class.path" value="E:\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.3 -Dmaven.repo.local=E:\repository install --projects com.huangjunlin:concurrency-demo,com.huangjunlin:java-basic-demo,com.huangjunlin:code-repository,com.huangjunlin:design-pattern-demo,com.huangjunlin:algorithm-demo,com.huangjunlin:jvm-demo,com.huangjunlin:kafka-demo,com.huangjunlin:redis-demo,com.huangjunlin:zookeeper-demo,com.huangjunlin:spring-demo,com.huangjunlin:spring-cloud-demo,com.huangjunlin:rocketmq-demo"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="java.ext.dirs" value="E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\resources.jar;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\rt.jar;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\sunrsasign.jar;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\jsse.jar;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\jce.jar;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\charsets.jar;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\lib\jfr.jar;E:\java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.redis.BasicTest" name="initializationError" time="0.005">
+    <error message="Invalid test class &apos;com.redis.BasicTest&apos;:
+  1. No runnable methods" type="org.junit.runners.model.InvalidTestClassError">org.junit.runners.model.InvalidTestClassError: Invalid test class &apos;com.redis.BasicTest&apos;:
+  1. No runnable methods
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:525)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:92)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:74)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.&lt;init&gt;(SpringJUnit4ClassRunner.java:137)
+	at org.springframework.test.context.junit4.SpringRunner.&lt;init&gt;(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+</testsuite>

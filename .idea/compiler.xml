@@ -2,32 +2,37 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="algorithm-demo" />
-        <module name="concurrency-demo" />
-        <module name="design-pattern-demo" />
         <module name="java-basic-demo" />
-        <module name="jvm-demo" />
-        <module name="kafka-demo" />
+        <module name="algorithm-demo" />
         <module name="redis-demo" />
         <module name="spring-demo" />
+        <module name="spring-cloud-demo" />
+        <module name="kafka-demo" />
+        <module name="jvm-demo" />
         <module name="zookeeper-demo" />
+        <module name="concurrency-demo" />
+        <module name="rocketmq-demo" />
+        <module name="design-pattern-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="algorithm-demo" target="1.8" />
-      <module name="code-repository" target="1.5" />
+      <module name="code-repository" target="1.8" />
       <module name="concurrency-demo" target="1.8" />
-      <module name="design-pattern-demo" target="1.5" />
-      <module name="java-basic-demo" target="1.5" />
+      <module name="design-pattern-demo" target="1.8" />
+      <module name="java-basic-demo" target="1.8" />
       <module name="jvm-demo" target="1.8" />
-      <module name="kafka-demo" target="1.5" />
+      <module name="kafka-demo" target="1.8" />
       <module name="redis-demo" target="1.7" />
+      <module name="rocketmq-demo" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
       <module name="spring-demo" target="1.8" />
-      <module name="zookeeper-demo" target="1.5" />
+      <module name="zookeeper-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
