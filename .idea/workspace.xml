@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e57352e9-c09a-4ba7-9d59-96bbd7cb3a77" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/algorithm-demo/src/test/java/com/algorithm/leetcode/GetIntersectionNode_160.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/algorithm-demo/src/test/java/com/algorithm/leetcode/IsPalindrome_234.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/algorithm-demo/src/test/java/com/algorithm/leetcode/ReverseList_206.java" afterDir="false" />
@@ -69,14 +70,122 @@
       <change beforePath="$PROJECT_DIR$/../spring-cloud-demo/ribbon-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-demo/ribbon-consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-demo/ribbon-consumer/target/ribbon-consumer-1.0-SNAPSHOT.jar" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/algorithm-demo/src/main/java/com/leetcode/HasCycle_141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-demo/src/main/java/com/leetcode/MoveZeroes_283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-demo/src/main/java/com/leetcode/TwoSum_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-demo/src/main/java/com/model/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-demo/src/main/java/com/javaconcurrencyinaction/readsourcecode/ReentrantLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-demo/src/main/java/com/javaconcurrencyinaction/introduction/Sequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-demo/src/main/java/com/javaconcurrencyinaction/introduction/UnsafeSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-demo/src/main/java/com/javaconcurrencyinaction/task_execute/OutOfTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-demo/src/main/java/com/javaconcurrencyinaction/task_execute/OutOfTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-demo/src/test/java/hjl/util/concurrent/locks/MyAbstractOwnableSynchronizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-demo/src/test/java/hjl/util/concurrent/locks/MyAbstractQueuedSynchronizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-demo/src/test/java/hjl/util/concurrent/locks/MyReenTrantLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-basic-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-basic-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jvm-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/surefire-reports/TEST-com.spring.ioc.BeanFactoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/surefire-reports/com.spring.ioc.BeanFactoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-demo/pom.xml" afterDir="false" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+=======
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,14 +195,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>s</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -790,8 +895,30 @@
         </selected-state>
       </profile-state>
     </entry>
+=======
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
+  </component>
+  <component name="ProjectId" id="2Pa2Fnd8hyr5J7uZXE91A07Qk7F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -931,22 +1058,35 @@
         </subPane>
       </pane>
     </panes>
+=======
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-cloud-demo/hello-service/src/main/resources" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithm-demo/src/main/java/com/leetcode" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -961,12 +1101,23 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.IsPalindrome_234">
+=======
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code-repository\algorithm-demo\src\main\java\com\leetcode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SingletonFactory">
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+<<<<<<< HEAD
     <configuration name="EightQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hello.service.EightQueenProblem" />
       <module name="hello-service" />
@@ -974,20 +1125,15 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hello.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsPalindrome_234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.IsPalindrome_234" />
+=======
+    <configuration name="HasCycle_141" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.HasCycle_141" />
       <module name="algorithm-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.leetcode.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -995,6 +1141,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="IsPalindrome_234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.IsPalindrome_234" />
+=======
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MyTest" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
+      <module name="algorithm-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+<<<<<<< HEAD
+          <option name="PATTERN" value="com.algorithm.leetcode.*" />
+=======
+          <option name="PATTERN" value="com.leetcode.*" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.model.ListNode" />
       <module name="algorithm-demo" />
@@ -1002,6 +1172,16 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.algorithm.model.*" />
+=======
+    <configuration name="SingletonFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.singleton.SingletonFactory" />
+      <module name="design-pattern-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.singleton.*" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1009,6 +1189,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.config.client.MyClass" />
       <module name="config-client" />
@@ -1030,6 +1211,15 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hello.service.*" />
+=======
+    <configuration name="TwoSum_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.TwoSum_1" />
+      <module name="algorithm-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1042,10 +1232,33 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+<<<<<<< HEAD
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
+=======
+    </configuration>
+    <configuration name="BigSizeListSumTest.splitListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrency-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaconcurrencyinaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaconcurrencyinaction" />
+      <option name="MAIN_CLASS_NAME" value="com.javaconcurrencyinaction.BigSizeListSumTest" />
+      <option name="METHOD_NAME" value="splitListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1053,7 +1266,10 @@
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
+<<<<<<< HEAD
       <option name="VM_PARAMETERS" />
+=======
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -1071,6 +1287,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.EightQueenProblem" />
       <item itemvalue="Application.MyClass" />
@@ -1088,6 +1305,24 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+=======
+      <item itemvalue="Application.MyTest" />
+      <item itemvalue="Application.SingletonFactory" />
+      <item itemvalue="JUnit.BigSizeListSumTest.splitListTest" />
+      <item itemvalue="Application.HasCycle_141" />
+      <item itemvalue="Application.TwoSum_1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SingletonFactory" />
+        <item itemvalue="JUnit.BigSizeListSumTest.splitListTest" />
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.TwoSum_1" />
+        <item itemvalue="Application.HasCycle_141" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1099,6 +1334,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622491366451</updated>
       <workItem from="1622491371304" duration="1426000" />
+<<<<<<< HEAD
       <workItem from="1624615939091" duration="3875000" />
       <workItem from="1624949103310" duration="120000" />
       <workItem from="1624949322209" duration="23000" />
@@ -1151,6 +1387,94 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+=======
+      <workItem from="1683680775765" duration="3303000" />
+      <workItem from="1683684589927" duration="57000" />
+      <workItem from="1683684663965" duration="589000" />
+      <workItem from="1683685470217" duration="10173000" />
+      <workItem from="1683701781595" duration="1276000" />
+      <workItem from="1683703080095" duration="1138000" />
+      <workItem from="1683704236027" duration="1371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="94" key="#Project_Structure" timestamp="1683701641915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1683701641915" />
+    <state x="576" y="142" key="#TwoSum_(1)" timestamp="1683701796399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="142" key="#TwoSum_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1683701796399" />
+    <state x="414" y="167" width="1211" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683704850185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="167" width="1211" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1683704850185" />
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1683683593974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1683683593974" />
+    <state x="690" y="216" key="FileChooserDialogImpl" timestamp="1683701942513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1683701942513" />
+    <state width="1921" height="303" key="GridCell.Tab.0.bottom" timestamp="1683705342236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1683705342236" />
+    <state width="1921" height="303" key="GridCell.Tab.0.center" timestamp="1683705342236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1683705342236" />
+    <state width="1921" height="303" key="GridCell.Tab.0.left" timestamp="1683705342236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1683705342236" />
+    <state width="1921" height="303" key="GridCell.Tab.0.right" timestamp="1683705342236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1683705342236" />
+    <state width="1867" height="215" key="GridCell.Tab.1.bottom" timestamp="1683701734469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1683701734469" />
+    <state width="1867" height="215" key="GridCell.Tab.1.center" timestamp="1683701734469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1683701734469" />
+    <state width="1867" height="215" key="GridCell.Tab.1.left" timestamp="1683701734469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1683701734469" />
+    <state width="1867" height="215" key="GridCell.Tab.1.right" timestamp="1683701734469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1683701734469" />
+    <state x="377" y="92" key="Maven.ArtifactSearchDialog" timestamp="1683702222328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="377" y="92" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1683702222328" />
+    <state x="330" y="0" key="SettingsEditor" timestamp="1683705126774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1683705126774" />
+    <state x="552" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1683704245601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="301" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1683704245601" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1683694260174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1683694260174" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1683704442573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1683704442573" />
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1161,6 +1485,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/es-demo/src/main/java/com/es/controller/EsController.java</url>
           <line>35</line>
           <option name="timeStamp" value="2" />
@@ -1600,5 +1925,18 @@
         </settings>
       </state>
     </states>
+=======
+          <url>jar://$PROJECT_DIR$/../java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>615</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> 366cb71499cd99e65f09931839d42c7c3679b1a3
   </component>
 </project>
