@@ -5,12 +5,23 @@
       <module fileurl="file://$PROJECT_DIR$/algorithm-demo/algorithm-demo.iml" filepath="$PROJECT_DIR$/algorithm-demo/algorithm-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/code-repository.iml" filepath="$PROJECT_DIR$/code-repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency-demo/concurrency-demo.iml" filepath="$PROJECT_DIR$/concurrency-demo/concurrency-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/config-client/config-client.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/config-server/config-server.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern-demo/design-pattern-demo.iml" filepath="$PROJECT_DIR$/design-pattern-demo/design-pattern-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es-demo/es-demo.iml" filepath="$PROJECT_DIR$/es-demo/es-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/feign-consumer/feign-consumer.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/feign-consumer/feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/hello-service/hello-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/hello-service-api/hello-service-api.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/hello-service-api/hello-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-basic-demo/java-basic-demo.iml" filepath="$PROJECT_DIR$/java-basic-demo/java-basic-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm-demo/jvm-demo.iml" filepath="$PROJECT_DIR$/jvm-demo/jvm-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafka-demo/kafka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-demo/redis-demo.iml" filepath="$PROJECT_DIR$/redis-demo/redis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/ribbon-consumer/ribbon-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-demo/rocketmq-demo.iml" filepath="$PROJECT_DIR$/rocketmq-demo/rocketmq-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo/spring-cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud-demo/springcloud-demo.iml" filepath="$PROJECT_DIR$/../spring-cloud-demo/springcloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" filepath="$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" />
     </modules>
   </component>

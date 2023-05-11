@@ -1,0 +1,7 @@
+server:
+  port: 7912
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300

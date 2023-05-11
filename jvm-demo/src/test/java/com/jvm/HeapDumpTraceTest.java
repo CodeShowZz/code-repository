@@ -21,4 +21,10 @@ public class HeapDumpTraceTest {
 
         }
     }
+
+    @Test
+    public void myTest() {
+        System.out.println("32");
+        Thread thread = new Thread();
+    }
 }

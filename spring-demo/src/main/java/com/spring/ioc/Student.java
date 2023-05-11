@@ -24,4 +24,8 @@ public class Student {
     private String name;
 
     private Date birthday;
+
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
 }

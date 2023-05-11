@@ -20,6 +20,7 @@
         <module>kafka-demo</module>
         <module>rocketmq-demo</module>
         <module>spring-cloud-demo</module>
+        <module>es-demo</module>
     </modules>
 
     <dependencies>
