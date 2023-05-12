@@ -11,14 +11,14 @@ public class InorderTraversal_94 {
         List<Integer> res = new ArrayList<>();
         inorderTraversal(root,res);
         return res;
-    }
+}
 
     public  void  inorderTraversal(TreeNode root,List<Integer> res) {
         if(root == null) {
             return;
         }
-        res.add(root.val);
         inorderTraversal(root.left,res);
+        res.add(root.val);
         inorderTraversal(root.right,res);
     }
 

@@ -18,7 +18,4 @@ public class TreeNode {
         this.right = right;
     }
 
-    public TreeNode buildTree(List<Integer> list) {
-        TreeNode root =
-    }
 }
