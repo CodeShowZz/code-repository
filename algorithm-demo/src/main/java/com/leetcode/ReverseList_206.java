@@ -1,6 +1,7 @@
-package com.algorithm.leetcode;
+package com.leetcode;
 
-import com.algorithm.model.ListNode;
+
+import com.model.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
