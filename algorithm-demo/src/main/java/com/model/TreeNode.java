@@ -1,5 +1,7 @@
 package com.model;
 
+import java.util.List;
+
 public class TreeNode {
     public int val;
     public TreeNode left;
@@ -14,5 +16,9 @@ public class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+
+    public TreeNode buildTree(List<Integer> list) {
+        TreeNode root =
     }
 }
