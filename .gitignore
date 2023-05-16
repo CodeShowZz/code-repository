@@ -28,3 +28,8 @@ hs_err_pid*
 .idea/compiler.xml
 .idea/misc.xml
 /.idea/
+/algorithm-demo/target/
+/concurrency-demo/target/
+/design-pattern-demo/target/
+/es-demo/target/
+/java-basic-demo/target/
