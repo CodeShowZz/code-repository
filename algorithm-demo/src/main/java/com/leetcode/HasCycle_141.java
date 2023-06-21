@@ -1,7 +1,7 @@
 package com.leetcode;
 
 
-import com.leetcode.model.ListNode;
+import com.model.ListNode;
 
 /**
  *

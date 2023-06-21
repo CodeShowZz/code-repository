@@ -1,6 +1,7 @@
 package com.leetcode;
 
-import com.leetcode.model.TreeNode;
+
+import com.model.TreeNode;
 
 public class IsSymmetric_101 {
     public boolean isSymmetric(TreeNode root) {

@@ -1,4 +1,4 @@
-package com.algorithm.util;
+package com.util;
 
 public class ArrayUtil {
 
