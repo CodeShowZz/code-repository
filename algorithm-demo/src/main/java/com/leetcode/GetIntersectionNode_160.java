@@ -1,7 +1,7 @@
 package com.leetcode;
 
 
-import com.model.ListNode;
+import com.leetcode.model.ListNode;
 
 public class GetIntersectionNode_160 {
 

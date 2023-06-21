@@ -1,7 +1,6 @@
 package com.leetcode;
 
-import com.model.TreeNode;
-import com.sun.org.apache.bcel.internal.generic.RETURN;
+import com.leetcode.model.TreeNode;
 
 /**
  *

@@ -1,6 +1,4 @@
-package com.model;
-
-import java.util.List;
+package com.leetcode.model;
 
 public class TreeNode {
     public int val;

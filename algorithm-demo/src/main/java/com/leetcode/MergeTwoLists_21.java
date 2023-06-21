@@ -1,6 +1,6 @@
 package com.leetcode;
 
-import com.model.ListNode;
+import com.leetcode.model.ListNode;
 
 public class MergeTwoLists_21 {
 

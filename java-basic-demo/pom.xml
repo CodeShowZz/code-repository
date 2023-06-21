@@ -17,7 +17,11 @@
             <artifactId>cglib</artifactId>
             <version>3.2.12</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.10</version>
+        </dependency>
     </dependencies>
-
-
 </project>
