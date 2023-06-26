@@ -60,12 +60,12 @@ public class ListNode {
         return res;
     }
 
-    static int listNodeToNum(ListNode listNode) {
+    public static long listNodeToNum(ListNode listNode) {
         if(listNode == null) {
             return 0;
         }
-        int time = 1;
-        int res = 0;
+        long time = 1;
+        long res = 0;
         while(listNode != null) {
             int val = listNode.val;
             res = res + time * val;
