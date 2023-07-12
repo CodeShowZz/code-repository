@@ -7,20 +7,21 @@ package com.leetcode;
  */
 public class MaxArea_11 {
 
+
     public int maxArea(int[] height) {
-        if(height == null || height.length == 1) {
-            return 0;
-        }
         int maxArea = 0;
+        if(height == null || height.length < 2) {
+            return maxArea;
+        }
         int left = 0;
         int right = height.length - 1;
-        while(left <right) {
+        while(left < right) {
             int area = (right - left) * Math.min(height[left],height[right]);
-            maxArea = Math.max(area,maxArea);
-            if(height[left] < height[right]) {
-                left++;
-            } else {
+            maxArea = Math.max(maxArea,area);
+            if(height[left] > height[right]) {
                 right--;
+            } else {
+                left++;
             }
         }
         return maxArea;
