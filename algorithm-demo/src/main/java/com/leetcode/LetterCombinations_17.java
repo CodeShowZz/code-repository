@@ -27,29 +27,33 @@ public class LetterCombinations_17 {
         phoneMap.put("9", "wxyz");
     }
 
-
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
         if(digits == null || digits.length() == 0) {
             return res;
         }
-        StringBuilder sb = new StringBuilder();
-        dfs(res, digits, sb, 0);
+        StringBuilder temp = new StringBuilder();
+        dfs(digits,res,temp,0);
         return res;
     }
 
-    private void dfs(List<String> res, String digits, StringBuilder sb, int index) {
-        if (sb.length() == digits.length()) {
-            res.add(sb.toString());
+    public void dfs(String digits,List<String> res,StringBuilder temp,int index) {
+        if(index ==digits.length()) {
+            res.add(temp.toString());
             return;
         }
         String strs = phoneMap.get(String.valueOf(digits.charAt(index)));
-        for (int i = 0; i < strs.length(); i++) {
-            sb.append(strs.charAt(i));
-            dfs(res, digits, sb, index + 1);
-            sb.deleteCharAt(index);
+        for(int i = 0;i<strs.length();i++) {
+            temp.append(strs.charAt(i));
+            dfs(digits,res,temp,index+1);
+            temp.deleteCharAt(temp.length()-1);
         }
     }
+
+
+
+
+
 
     public static void main(String[] args) {
         List<String> res = new LetterCombinations_17().letterCombinations("");
