@@ -11,23 +11,24 @@ import java.util.*;
  */
 public class GroupAnagrams_49 {
 
-    public List<List<String>> groupAnagrams(String[] strs) {
+
+    public List<List<String>> groupAnagrams(String[] strs)  {
         List<List<String>> res = new ArrayList<>();
-        if (strs == null || strs.length == 0) {
+        if(strs == null || strs.length == 0) {
             return res;
         }
-        Map<String, List<String>> groupMap = new HashMap();
-        for (int i = 0; i < strs.length; i++) {
-            String sortStr = sortStr(strs[i]);
-            groupMap.computeIfAbsent(sortStr, (item) -> new ArrayList<>()).add(strs[i]);
+        Map<String,List<String>> groupMap = new HashMap<>();
+        for(String str : strs) {
+            String sortStr = sort(str);
+            groupMap.computeIfAbsent(sortStr,item -> new ArrayList<>()).add(str);
         }
-        for(Map.Entry<String, List<String>> entry :  groupMap.entrySet()) {
+        for(Map.Entry<String,List<String>> entry : groupMap.entrySet()) {
             res.add(entry.getValue());
         }
         return res;
     }
 
-    public String sortStr(String str) {
+    public String sort(String str) {
         char[] chs = str.toCharArray();
         Arrays.sort(chs);
         return String.valueOf(chs);

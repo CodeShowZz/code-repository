@@ -14,7 +14,7 @@ public class Search_33 {
         int low = 0;
         int high = nums.length - 1;
         while (low <= high) {
-            int mid = (low + high) / 1;
+            int mid = (low + high) / 2;
             if (nums[mid] == target) {
                 return mid;
             }
@@ -35,9 +35,66 @@ public class Search_33 {
         return -1;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public int search2(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        int len = nums.length;
+        int lo = 0;
+        int hi = nums.length - 1;
+        while (lo <= hi) {
+            int mid = (lo + hi) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            }
+            if (nums[0] < nums[mid]) {
+                //左边有序
+                if (target < nums[mid] && target >= nums[0]) {
+                    //在左边
+                    hi = mid - 1;
+                }
+                {
+                    //在右边
+                    lo = mid + 1;
+                }
+            } else {
+                //右边有序
+                if (target > nums[mid] && target <= nums[len - 1]) {
+                    //在右边
+                    lo = mid + 1;
+                } else {
+                    //在左边
+                    hi = mid - 1;
+                }
+            }
+        }
+        return -1;
+    }
+
     public static void main(String[] args) {
-        int [] nums = {1};
-        int res = new Search_33().search(nums,0);
+        int [] nums = {3,1};
+        int res = new Search_33().search2(nums,1);
         System.out.println("res:" + res);
     }
 }
