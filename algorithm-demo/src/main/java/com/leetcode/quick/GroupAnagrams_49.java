@@ -1,6 +1,4 @@
-package com.leetcode;
-
-import com.sun.xml.internal.ws.util.StringUtils;
+package com.leetcode.quick;
 
 import java.util.*;
 

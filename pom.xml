@@ -21,6 +21,7 @@
         <module>rocketmq-demo</module>
         <module>spring-cloud-demo</module>
         <module>es-demo</module>
+        <module>netty-demo</module>
     </modules>
 
     <dependencies>
