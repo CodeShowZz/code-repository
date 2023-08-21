@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.slow;
 
 import com.util.ArrayUtil;
 
@@ -7,8 +7,8 @@ import java.util.Arrays;
 public class SortColors_75 {
 
     public static void main(String[] args) {
-        int [] nums = {2,0,1};
-        new SortColors_75().sortColors(nums);
+        int [] nums = {2,0,2,1,1,0};
+        new SortColors_75().sortColors2(nums);
         System.out.println(Arrays.toString(nums));
     }
 
@@ -37,6 +37,27 @@ public class SortColors_75 {
                 //一旦遇到2,换到two位置
                 ArrayUtil.swap(nums,i,two);
                 //i不变,因为可能交换过去的是个0,那么需要再判断一遍,如果是0,就需要把zero往右增大
+            }
+        }
+    }
+
+    public void sortColors2(int[] nums) {
+        if(nums == null || nums.length == 0){
+            return;
+        }
+        int zero = 0;
+        int i = 0;
+        int two = nums.length;
+        while(i < two) {
+            if(nums[i] == 0) {
+                ArrayUtil.swap(nums,zero,i);
+                i++;
+                zero++;
+            } else if(nums[i] == 1) {
+                i++;
+            } else if(nums[i] == 2) {
+                two--;
+                ArrayUtil.swap(nums,two,i);
             }
         }
     }

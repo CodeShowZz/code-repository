@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.slow;
 
 /**
  * @description:
@@ -52,7 +52,66 @@ public class Exist_79 {
 
     public static void main(String[] args) {
         char[][] board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
-        boolean res = new Exist_79().exist(board, "SEE");
+        boolean res = new Exist_79().exist2(board, "SEE");
         System.out.println("res:" + res);
     }
+
+
+    public boolean exist2(char[][] board, String word) {
+         if(board == null) {
+             return false;
+         }
+         int row = board.length;
+         int col = board[0].length;
+         boolean [][]visited = new boolean[row][col];
+         for(int i = 0;i<row;i++) {
+             for(int j = 0 ;j <col;j++) {
+                 if(dfs2(i,j,board,word,0,visited,row,col)) {
+                     return true;
+                 }
+             }
+         }
+         return false;
+    }
+
+    public boolean dfs2(int x,int y,char [][] board,String word,int begin,boolean [][]visited,int row,int col){
+        if(word.length() -1 == begin) {
+            return word.charAt(word.length()-1) == board[x][y];
+        }
+        if(board[x][y] == word.charAt(begin)) {
+            visited[x][y] = true;
+            for(int i = 0; i < directions.length;i++) {
+                int newX = x + directions[i][0];
+                int newY = y + directions[i][1];
+                if(isInArea(newX,newY,row,col)
+                        && !visited[newX][newY]
+                        && dfs2(newX,newY,board,word,begin+1,visited,row,col)) {
+                    return true;
+                }
+            }
+            visited[x][y] = false;
+        }
+        return false;
+    }
+
+    public boolean isInArea(int x,int y,int row,int col) {
+        return x >= 0 && x < row && y >=0 && y < col;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

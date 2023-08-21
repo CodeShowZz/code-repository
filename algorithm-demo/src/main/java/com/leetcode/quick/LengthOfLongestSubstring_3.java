@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.quick;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,8 +25,49 @@ public class LengthOfLongestSubstring_3 {
         return max;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public int lengthOfLongestSubstring2(String s) {
+        if(s == null || s.length() == 0) {
+            return 0;
+        }
+        Map<Character,Integer> charMap = new HashMap<>();
+        int maxLen = 0;
+        int left = 0;
+        for(int i = 0; i < s.length();i++) {
+            char ch = s.charAt(i);
+            if(charMap.containsKey(ch)) {
+                left = Math.max(left,charMap.get(ch)+1);
+            }
+            charMap.put(ch,i);
+            maxLen = Math.max(maxLen,i - left +1);
+        }
+        return maxLen;
+    }
+
+
+
     public static void main(String[] args) {
-       int res =  new LengthOfLongestSubstring_3().lengthOfLongestSubstring("pwwkew");
+       int res =  new LengthOfLongestSubstring_3().lengthOfLongestSubstring2("abcabcbb");
        System.out.println("res:" + res);
     }
 }
