@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.quick;
 
 
 import com.model.TreeNode;
@@ -22,6 +22,41 @@ public class InorderTraversal_94 {
         res.add(root.val);
         inorderTraversal(root.right,res);
     }
+
+    public List<Integer> inorderTraversal2(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        inorderTraversal(root,res);
+        return res;
+    }
+
+    public void inorderTraversal2(TreeNode root,List<Integer> res) {
+        if(root == null) {
+            return;
+        }
+        inorderTraversal2(root.left,res);
+         res.add(root.val);
+         inorderTraversal2(root.right,res);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
